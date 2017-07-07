@@ -1069,7 +1069,7 @@ If set to an existing [`kendo.data.Model`](/api/javascript/data/model) instance,
 #### Example - set the model as an existing `kendo.data.Model` instance
 
     <script>
-    var Product = kendo.model.define({
+    var Product = kendo.data.Model.define({
       id: "ProductID",
       fields: {
         ProductID: {
